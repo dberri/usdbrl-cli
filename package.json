@@ -16,6 +16,7 @@
   "author": "David Berri <dwbwill@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "date-fns": "^2.14.0",
     "yargs": "^15.4.0"
   }
 }
