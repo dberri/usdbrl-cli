@@ -9,6 +9,8 @@ To file taxes in Brazil for foreign earnings, one needs to convert that income t
 closed exchange rate of the payment date and then convert to BRL using the exchange rate on the 15th 
 workday of the previous month.
 
+The data comes from the oficial website for the [Brazilian Central Bank](https://www4.bcb.gov.br/pec/taxas/port/ptaxnpesq.asp?frame=1)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -31,8 +33,6 @@ To use cotacao-cli, follow these steps:
 ```
 cotacao
 ```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 ## Contributing to cotacao-cli
 
