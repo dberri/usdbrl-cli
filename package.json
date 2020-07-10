@@ -1,10 +1,10 @@
 {
-  "name": "cotacao-cli",
+  "name": "usdbrl-cli",
   "version": "0.1.0",
   "description": "A CLI to fetch BRL to USD exchange rates",
   "main": "lib/index.js",
   "bin": {
-    "cotacao": "bin/cli.js"
+    "usdbrl": "bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
