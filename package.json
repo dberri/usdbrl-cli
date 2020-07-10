@@ -1,0 +1,21 @@
+{
+  "name": "cotacao-cli",
+  "version": "0.1.0",
+  "description": "A CLI to fetch BRL to USD exchange rates",
+  "main": "lib/index.js",
+  "bin": {
+    "cotacao": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "forex"
+  ],
+  "author": "David Berri <dwbwill@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^15.4.0"
+  }
+}
