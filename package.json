@@ -1,6 +1,6 @@
 {
   "name": "usdbrl-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A CLI to fetch BRL to USD exchange rates",
   "main": "lib/index.js",
   "bin": {
