@@ -2,6 +2,8 @@
 
 const { argv } = require('yargs')
   .usage('Usage: $0 [options]')
+  .alias('s', 'sell')
+  .describe('sell', 'returns the exchange rate for the selling operation (default is buy)')
   .describe('date', 'returns the exchange rate on a given <date> (dd/mm/yyyy)')
   .alias('d', 'date')
   .describe('raw', 'returns raw data')

@@ -1,6 +1,6 @@
 {
   "name": "usdbrl-cli",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A CLI to fetch BRL to USD exchange rates",
   "main": "lib/index.js",
   "bin": {
@@ -13,7 +13,7 @@
     "cli",
     "forex"
   ],
-  "author": "David Berri <dwbwill@gmail.com>",
+  "author": "David Berri <david@berribits.com>",
   "license": "MIT",
   "dependencies": {
     "date-fns": "^2.14.0",
