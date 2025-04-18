@@ -43,14 +43,22 @@ Get the exchange rate on a specific date
 Exchange rate on 10/06/2020: R$ 4,8888
 ```
 
+Get the exchange rate for a list of specific dates
+```sh
+> usdbrl -l 10/06/2020,15/07/2020,20/08/2020
+Exchange rate on 10/06/2020: R$ 4,8888
+Exchange rate on 15/07/2020: R$ 5,3765
+Exchange rate on 20/08/2020: R$ 5,4120
+```
+
 Get the exchange rate for a period
 ```sh
 > usdbrl -r -p 05/07/2020 10/07/2020
 [
-  { date: '30/06/2020', rate: '5,4754' },
-  { date: '01/07/2020', rate: '5,3646' },
-  { date: '02/07/2020', rate: '5,3022' },
-  { date: '03/07/2020', rate: '5,3368' }
+  { date: '30/06/2020', buyRate: '5,4754', sellRate: '5,4754' },
+  { date: '01/07/2020', buyRate: '5,3646', sellRate: '5,3646' },
+  { date: '02/07/2020', buyRate: '5,3022', sellRate: '5,3022' },
+  { date: '03/07/2020', buyRate: '5,3368', sellRate: '5,3368' }
 ]
 ```
 
