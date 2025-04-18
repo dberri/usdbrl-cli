@@ -1,6 +1,6 @@
 {
   "name": "usdbrl-cli",
-  "version": "0.3.1",
+  "version": "0.3.0",
   "description": "A CLI to fetch BRL to USD exchange rates",
   "main": "lib/index.js",
   "bin": {
@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dberri/usdbrl-cli.git"
+    "url": "git+https://github.com/dberri/usdbrl-cli.git"
   }
 }
